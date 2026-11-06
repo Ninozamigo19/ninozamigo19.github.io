@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    color: red;
+    background-color: #E3FDFD;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+    background-color: #E3FDFD;
+    /*background-color: white;*/
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.nino_logo img{
+    width: 40px;
+    height: auto;
+}
+
+.nino_logo{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: black;
+}
+
+nav ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    color: black;
+}
+
+nav ul :hover{
+    color: rgb(25, 146, 190);
+}
+
+.nino_hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 8%;
+    /*background-image: url(../GAMBAR/herosection_background.jpg);*/
+    background-color: #CBF1F5;
+    color: rgb(84, 84, 84);
+}
+
+.nino_hero_text h1{
+    color: rgb(25, 146, 190);
+}
+
+.nino_hero_button .btn{
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.nino_primary_btn{
+    background-color: rgb(25, 146, 190);
+    color: white;
+}
+
+.nino_secondary_btn{
+    color: white;
+    background-color:rgb(25, 146, 190) ;
+}
+
+.nino_about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.nino-about-text{
+    flex: 1;
+    color: black;
+    margin-left: 60px;
+}
+
+
+.nino-image-profile img{
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+}
