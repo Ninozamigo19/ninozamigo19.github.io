@@ -67,6 +67,7 @@ nav ul :hover{
     border-radius: 5px;
     display: inline-block;
     margin-right: 10px;
+    margin-top: 10px;
 }
 
 .nino_primary_btn{
@@ -84,18 +85,111 @@ nav ul :hover{
     justify-content: space-between;
     align-items: center;
     gap: 40px;
+    margin-left: 10px;
+    padding: 60px 8%;
 }
 
 .nino-about-text{
     flex: 1;
     color: black;
-    margin-left: 60px;
+    margin-left: 10px;
+    max-width: 60ch;
 }
 
 
 .nino-image-profile img{
-    width: 250px;
+    width: 170px;
     height: auto;
     border-radius: 10px;
     margin-top: 20px;
 }
+
+.nino_skill {
+    margin-left: 10px;
+    padding: 60px 8%;
+    color: black;
+}
+
+.nino-skill_grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.nino-skill_card {
+    background: #CBF1F5;
+    padding: 15px;
+    padding-top: 10px;
+    border-radius: 8px;
+    font-weight: bold;
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.nino-skill_card img {
+    width: 50px;
+    height: auto;
+}
+
+.nino_project {
+    color: black;
+    margin-left: 10px;
+    padding: 60px 8%;
+}
+
+.nino-project_grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.nino-project_card {
+    border: 1px solid #CBF1F5;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #CBF1F5;
+}
+
+.nino-project_info {
+    padding: 15px;
+    max-width: 60ch;
+}
+
+.nino-project_info h3 {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+
+.nino-project_info p {
+    font-size: 0.85rem;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.nino-project_info a {
+    color: rgb(25, 146, 190);
+    font-weight: bold;
+    font-size: 0.85rem;
+}
+
+footer {
+      background-color: #71C9CE;
+      color: black;
+      padding: 30px 8%;
+    }
+    .nino-footer_top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #0b5281;
+    }
+    .nino-footer_bottom {
+      text-align: center;
+      padding-top: 15px;
+      font-size: 0.8rem;
+      color: #0b5281;
+    }
